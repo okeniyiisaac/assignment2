@@ -1,0 +1,131 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+body{
+font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6f8;
+  color: #1b1b1b;
+  padding: 0 10px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px ;
+  padding-right: 30px;
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.auth-button button{
+ margin-left: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.login{
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  transition: all 0.1s ease-in-out;
+  border:solid #b2bac1 ;
+  color: black;
+  background: transparent;
+  padding: 9.5px 14.5px;
+  line-height: 1.4;
+  
+}
+.login:hover{
+  color: #3393f2#00b4ff;
+  border-color: #3393f2;
+}
+.sign-up{
+  padding: 9.6px 13px;
+  background-color: #3393f2;
+  border-color:#3393f2;
+  border: solid #3393f2;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+   text-decoration: none;
+   margin: auto;
+}
+.sign-up:hover{
+  color: #3393f2;
+  background-color: transparent;
+  border: 3px solid #3393f2;
+ 
+}
+main{
+  text-align: center;
+  padding: 3rem 1rem;
+}
+h4{
+  color: #717171;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .04em;
+  text-transform: capitalize;
+  
+  
+}
+h1{
+ font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  line-height: 1.13;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 17px;
+  margin-left: 0px;
+}
+.sub-text{
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 auto 50px;
+  max-width: 800px;
+  line-height: 1.4;
+}
+.free-trial{
+  border: 2px solid rgb(198, 198, 2);
+  background-color: #e3d500;
+  padding: 14px 38px;
+  border-radius: 50px;
+  font-weight: 700;
+  display: inline-block;
+   transition-duration: 0.4s, 0.4s;
+  color: #1b1b1b;
+  transition-timing-function: ease-in-out, ease-in-out;
+  text-decoration: none;
+}
+.free-trial:hover{
+  background-color: #3393f2;
+  border-color: #0a81f8;
+}
+.trial-note{
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 19px;
+}
+.left-nav{
+  display: flex;
+  align-items: center;
+}
